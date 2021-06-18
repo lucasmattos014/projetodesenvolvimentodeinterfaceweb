@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title id="pageTitle">Portal de Filmes</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="scripts/data.js"></script>
+</head>
+
+<body>
+
+    <!--Menu-->
+    <header>
+        <div class="col-sm-12 col-lg-12 12 menu center desktop">
+            <div class="container flexMenu">
+                <div class="col-sm-2 col-lg-2 12">
+                    <a href="index.html">
+                        <img src="logo.png" alt="logo">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-lg-6 12">
+                    <ul>
+                        <li><a href="index.html#Destaque">Destaques</a></li>
+                        <li><a href="populares.html">Populares</a></li>
+                        <li><a href="em_breve.html">Em Breve</a></li>
+                        <li><a href="nos_cinemas.html">No cinema</a></li>
+                        <li><a href="#Noticias">Noticias</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2 col-lg-2 12">
+                    <button><a href="buscar.html">Pesquisar</a></button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="sidenav responsivo" id="mySidenav" style="z-index: 999999999999999999999999;">
+            <div class="container">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <br><br>
+                <ul>
+                    <li><a href="#Destaque">Destaques</a></li>
+                    <li><a href="populares.html">Populares</a></li>
+                    <li><a href="em_breve.html">Em Breve</a></li>
+                    <li><a href="nos_cinemas.html">No cinema</a></li>
+                    <li><a href="#Noticias">Noticias</a></li>
+                </ul>
+
+                <div class="col-sm-12 col-lg-12 12">
+                    <input placeholder="Pesquisar..">
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-12 responsivo menos" style="padding: 0px">
+            <span class=" repo iconeRespo imgCima responsivo center imgRespo reponsivoStyle " onclick="openNav()">
+          
+                <i class="fas fa-bars iconeRespo left"></i>
+                <div class="center">
+                    <img src="logo.png" alt="logo">
+                </div>
+          
+              </span>
+        </div>
+
+
+    </header>
+
+
+
+
+
+    <div class="col-sm-12 col-lg-12 12 paginaInterna" id="fundo">
+
+        <div class="container flex boxPagMig" id="principal">
+
+
+        </div>
+
+    </div>
+
+    <!--Novidades/Sobre-->
+
+    <div id="Noticias" class="col-sm-12 col-lg-12 12 novisobre">
+        <div class="container">
+
+
+            <div class="col-sm-12 col-lg-8 8 novidades">
+
+                <h2>Novidades</h2>
+
+                <div class="col-sm-12 col-lg-12 12 novidadebloco flex" style="padding: 0px;">
+                    <div class="col-sm-12 col-lg-5 5" style="padding: 0px;">
+                        <img src="https://br.web.img3.acsta.net/c_400_225/newsv7/21/06/10/19/28/3987746.jpg" alt="filme">
+                    </div>
+                    <div class="col-sm-12 col-lg-7 7">
+                        <h3>Luca: A nova animação do Disney+ promete conquistar toda a família                        </h3>
+                        <p>Uma história de amizade e diversão, o próximo lançamento da Pixar chega ao serviço de streaming em 18 de junho.</p>
+                        <a href="https://www.adorocinema.com/noticias/filmes/noticia-159200/" target="_blank" rel="noopener noreferrer"><span>saiba Mais</span></a>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-lg-12 12 novidadebloco flex" style="padding: 0px;">
+                    <div class="col-sm-12 col-lg-5 5" style="padding: 0px;">
+                        <img src="https://br.web.img2.acsta.net/c_400_225/newsv7/21/06/17/22/23/3312367.jpg" alt="filme">
+                    </div>
+                    <div class="col-sm-12 col-lg-7 7">
+                        <h3>Lançamentos da Netflix nesta semana (18/06 a 24/06): Elite 4ª temporada e a comédia Paternidade são destaques
+                        </h3>
+                        <p>A 4ª temporada de Elite e Paternidade são as estreias de maior destaque na programação.
+
+                        </p>
+                        <a href="https://www.adorocinema.com/noticias/filmes/noticia-159295/" target="_blank" rel="noopener noreferrer"><span>saiba Mais</span></a>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-lg-12 12 novidadebloco flex" style="padding: 0px;">
+                    <div class="col-sm-12 col-lg-5 5" style="padding: 0px;">
+                        <img src="https://br.web.img3.acsta.net/c_400_225/newsv7/21/06/17/18/09/1554384.jpg" alt="filme">
+                    </div>
+                    <div class="col-sm-12 col-lg-7 7">
+                        <h3>Evereste na Sessão da Tarde hoje (17/6): Josh Brolin e Jason Clarke quase caíram de uma ponte a 300 metros do chão
+                        </h3>
+                        <p>Exibido na Rede Globo às 15h, Evereste foi gravado em condições climáticas precárias e o elenco teve que lutar contra animais e falta de recursos.
+
+
+                        </p>
+                        <a href="https://www.adorocinema.com/noticias/filmes/noticia-159287/" target="_blank" rel="noopener noreferrer"><span>saiba Mais</span></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4 4 sobre">
+
+                <h2>Sobre</h2>
+                <p>Seja bem vindo ao meu site para a disciplina de Desenvolvimento de Interfaces Web, o site contem informações adquiridas através da API.</p>
+
+                <h2>Editorial</h2>
+                <p><label>Redação:</label> Lucas Mattos Rodrigues</p>
+                <p><label>Pesquisa:</label> Lucas Mattos Rodrigues</p>
+                <p><label>Gerente geral:</label> Lucas Mattos Rodrigues</p>
+
+                <h2>Rede Social</h2>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="col-sm-12 col-lg-12 12 footer">
+            <div class="container">
+
+                <div class="col-sm-6 col-lg-6 12">
+                    <p>Copyright 2021 - Disciplina de Desenvolvimento de Interface Web - ICEI PUC MINAS</p>
+                </div>
+
+                <div class="col-sm-6 col-lg-6 12 right">
+                    <img src="logo.gif" alt="logo">
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </footer>
+
+
+
+
+</body>
+
+</html>
+
+<!--Barra Lateral responsivo -->
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "100%";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+
+<script src="scripts/pageInterna.js"></script>
